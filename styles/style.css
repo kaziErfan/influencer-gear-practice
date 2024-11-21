@@ -56,16 +56,15 @@ a {
 
 /* Banner Section */
 .banner{
-    margin: 3rem 0;
+    margin: 3rem;
     justify-content: center;
     align-items: center;
-    gap: 3.125rem;
+    gap: 3.75rem;
 }
 .banner-content{
-    width: 580px;
+    width: 40%;
 }
 .banner-title{
-    width: 500px;
     font-size: 3.25rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -108,4 +107,16 @@ a {
         flex-direction: column;
         gap: 5px;
     }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 3rem 1rem;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 1.75rem;
+    }
+    
 }
