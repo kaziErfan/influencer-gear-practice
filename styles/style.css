@@ -100,3 +100,12 @@ a {
     position: absolute;
     top: 1.5rem;
 }
+
+/* Responsive for mobile device */
+
+@media  screen and (max-width: 576px) {
+    .navbar, .nav-menu{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
