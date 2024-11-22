@@ -161,6 +161,15 @@ a {
     margin-top: .5rem;
     opacity: 0.8;
 }
+.product-btn{
+    justify-content: end;
+    margin-top: 3rem;
+    margin-right: 1.75rem;
+}
+.product-btn > a {
+    font-weight: 700;
+    color: var(--bg-color);
+}
 
 /* Responsive for mobile device */
 
