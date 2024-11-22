@@ -115,6 +115,17 @@ a {
     padding: 2rem 0;
 }
 
+/* Product Section Styles */
+.product-section-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.product-items{
+    margin-top: 2.5rem;
+}
+
+
 /* Responsive for mobile device */
 
 @media  screen and (max-width: 576px) {
