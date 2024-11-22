@@ -100,6 +100,18 @@ a {
     top: 1.5rem;
 }
 
+/* Brand Section */
+.brand-section{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.brand-logos{
+    justify-content: center;
+    gap: 3.5rem;
+    
+}
+
 /* Responsive for mobile device */
 
 @media  screen and (max-width: 576px) {
