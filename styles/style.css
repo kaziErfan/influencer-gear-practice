@@ -30,7 +30,9 @@ a {
 .display-grid {
     display: grid;
 }
-
+.text-center{
+    text-align: center;
+}
 /* Navbar Styles */
 
 .navbar {
@@ -107,7 +109,6 @@ a {
 }
 
 .brand-logos{
-    justify-content: center;
     gap: 3.5rem;
     border-top: 2px solid rgba(176, 176, 176, 0.2);
     border-bottom: 2px solid rgba(176, 176, 176, 0.2);
@@ -133,4 +134,13 @@ a {
         font-size: 1.75rem;
     }
     
+    /* Brand Section */
+    
+    .brand-logos{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.25rem;
+        padding: 0 1rem;
+        border: none;
+    }
 }
