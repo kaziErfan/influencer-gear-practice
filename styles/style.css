@@ -174,6 +174,38 @@ a {
     color: var(--bg-color);
 }
 
+/* Newsletter section */
+.newsletter-section{
+    margin: 6.25rem 12.5rem;
+    gap: 6rem;
+}
+.newsletter-content{
+    width: 60%;
+}
+.newsletter-title{
+    font-size: 2.375rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+}
+.newsletter-description{
+    width: 80%;
+    font-weight: 700;
+    color: var(--small-text-color);
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+.newsletter-btn{
+    margin-top: 1rem;
+    background-color: var(--bg-color);
+    border: none;
+    padding: .75rem 1.5rem;
+}
+.newsletter-btn > a{
+    color: var(--text-white);
+    font-weight: 700;
+}
+
 /* Responsive for mobile device */
 
 @media  screen and (max-width: 576px) {
