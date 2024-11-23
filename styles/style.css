@@ -5,6 +5,9 @@
 img{
     max-width: 100%;
 }
+#hidden{
+    display: none;
+}
 
 /* Shared Styles */
 body {
@@ -201,4 +204,15 @@ a {
     }
 
     /* Product section */
+    .product-items{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .product-section{
+        margin: 0 1rem;
+    }
+    .product-btn{
+        justify-content: center;
+    }
+
 }
