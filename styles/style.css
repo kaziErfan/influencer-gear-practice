@@ -205,6 +205,18 @@ a {
     color: var(--text-white);
     font-weight: 700;
 }
+/* Footer Styles */
+.footer{
+    background-color: var(--secondary-color);
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-white);
+}
+.footer-info{
+    
+}
 
 /* Responsive for mobile device */
 
