@@ -209,15 +209,30 @@ a {
 .footer{
     background-color: var(--secondary-color);
 }
+.footer-content{
+    padding: 3rem 0;
+    text-align: center;
+}
 .footer-title{
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-white);
+    margin-bottom: .625rem;
 }
 .footer-info{
-    
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: .625rem;
+    line-height: 1.6;
 }
-
+.social-icons{
+    justify-content: center;
+    gap: 1rem;
+}
+.social-icons > a{
+    color: var(--text-white);
+}
 /* Responsive for mobile device */
 
 @media  screen and (max-width: 576px) {
