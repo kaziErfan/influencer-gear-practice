@@ -213,7 +213,7 @@ a {
         flex-direction: column;
         gap: 5px;
     }
-    .banner{
+    .banner, .newsletter-section{
         flex-direction: column-reverse;
         margin: 3rem 1rem;
     }
@@ -246,5 +246,21 @@ a {
     .product-btn{
         justify-content: center;
     }
+    /* Newsletter section */
+    .newsletter-section{
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .newsletter-content{
+        text-align: center;
+    }
+    .newsletter-title{
+        font-size: 1.5rem;
+    }
+    .newsletter-description{
+        width: 100%;
+    }
+    
 
 }
